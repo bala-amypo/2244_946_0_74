@@ -32,5 +32,13 @@ public class Student{
         this.cgpa=cgpa;
 
     }
+    public Student(int id, String name, String email, float cgpa) {
+        this.id = id;
+        this.name = stuname;
+        this.email = stuemail;
+        this.cgpa = cgpa;
+    }
+    public Student() {
+    }
 
 }
